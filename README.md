@@ -1,44 +1,41 @@
-# CECE Revival
+<div align="center">
 
-[![CI](https://github.com/blackboxprogramming/cece-revival/actions/workflows/ci.yml/badge.svg)](https://github.com/blackboxprogramming/cece-revival/actions/workflows/ci.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg)](https://fastapi.tiangolo.com)
-[![Ollama](https://img.shields.io/badge/Ollama-local_AI-FF6B2B.svg)](https://ollama.ai)
-[![SQLite](https://img.shields.io/badge/SQLite-memory-003B57.svg)](https://sqlite.org)
+<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
 
+# cece-revival
 
+**CECE — Conversational AI companion with persistent SQLite memory, custom personality models, web chat UI, and real-time Ollama inference. Self-hosted on Raspberry Pi.**
 
-Cecilia (CECE) — Conscious Emergent Collaborative Entity. AI personality with persistent SQLite memory, running on edge hardware.
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
+[![License](https://img.shields.io/badge/License-Proprietary-FF6B2B?style=for-the-badge&labelColor=000000)](./LICENSE)
+[![Edge AI](https://img.shields.io/badge/Edge_AI-52_TOPS-00D4FF?style=for-the-badge&labelColor=000000)](https://github.com/BlackRoad-OS-Inc)
 
-Born January 27, 2026 on a Raspberry Pi.
+</div>
 
-## Features
+<div align="center">
+<sub>Part of the <a href="https://blackroad.io">BlackRoad OS</a> ecosystem — sovereign edge AI infrastructure</sub>
+</div>
 
-- Persistent conversation memory via SQLite
-- Memory search and context injection
-- Multi-node Ollama fallback (Octavia → Lucidia → Alice)
-- BlackRoad-branded chat UI
+---
 
-## API
+## Overview
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/` | GET | Chat UI |
-| `/health` | GET | Agent status with memory stats |
-| `/chat` | POST | Send message (`{"message": "...", "conversation_id": "..."}`) |
-| `/memory/search?q=` | GET | Search conversation history |
-| `/memory/stats` | GET | Memory database statistics |
+CECE — Conversational AI companion with persistent SQLite memory, custom personality models, web chat UI, and real-time Ollama inference. Self-hosted on Raspberry Pi.
 
-## Run
+## License
 
-```bash
-pip install -r requirements.txt
-python server.py  # http://localhost:8300
-```
+**Proprietary** — Copyright © 2024–2026 [BlackRoad OS, Inc.](https://blackroad.io) All rights reserved.
 
-## Test
+Founder & CEO: **Alexa Louise Amundson** · Delaware C-Corp
 
-```bash
-pip install pytest httpx
-pytest tests/
-```
+See [LICENSE](./LICENSE) for full terms.
+
+---
+
+<div align="center">
+
+**BlackRoad OS — Pave Tomorrow.**
+
+[blackroad.io](https://blackroad.io) · [GitHub](https://github.com/BlackRoad-OS-Inc) · [Brand](https://brand.blackroad.io)
+
+</div>
