@@ -1,5 +1,13 @@
 # cece-revival
 
+> CECE — conversational AI companion with persistent SQLite memory and custom personality models (BlackRoad integration)
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# cece-revival
+
 CECE — conversational AI companion with persistent SQLite memory and custom personality models (BlackRoad integration)
 
 **BlackRoad-OS-Inc** — Corporate root — all IP and governance
